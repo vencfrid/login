@@ -1,0 +1,66 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#example1 {
+     background-image: url(img_flwr.gif), url(paper.gif);
+     background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+#div1 {
+    background-color: rgb(0,0,0);
+    height: 15% ;
+    color: white;
+    text-align: center;
+}
+
+#div2 {
+    background-image: url(img/planet9_Wallpaper_5000x2813.jpg)
+    height: 10% ;
+    color: black;
+    text-align: center;
+}
+#div3 {
+    background-image: url(img/planet9_Wallpaper_5000x2813.jpg)
+    height: 15% ;
+    color: black;
+    text-align: center;
+}
+
+#table1
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height: 20%;
+    width: 50%;
+    
+
+}
+    #table1 th, td {
+      padding: 15px;
+
+    }
+    
+    #table1 button{
+        background-color: skyblue;
+        height: 20px;
+        width: 100px;
+        color: white;
+
+    }
+
+    #div1Table1
+    {
+    background-color: rgb(250,250,250);
+    color: black;
+    width: 50%;
+    }
+
+    #div1Table2
+    {
+    background-color: rgb(0,0,0);
+    color: white;
+    width: 50%;
+    }
